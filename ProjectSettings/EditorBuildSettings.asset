@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Title Screen.unity
+    guid: e58e4678454bef14d98d9e0415f67de1
+  - enabled: 1
+    path: Assets/Scenes/Overworld.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/EntBattle.unity
+    guid: 53ee4c13422026b48a290277dedf1890
+  - enabled: 1
+    path: Assets/Scenes/MoleBattle.unity
+    guid: 2d99510efdc55db4e96ec59493ee3612
+  - enabled: 1
+    path: Assets/Scenes/BossBattle.unity
+    guid: a6c7a3f97f95236418d63c89b3bb040a
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 0cc7e64dc8b7f5d4c8d8072b7d7dffd5
   m_configObjects: {}

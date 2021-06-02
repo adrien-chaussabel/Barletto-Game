@@ -24,6 +24,11 @@ public class PlayerMove : MonoBehaviour
         animator.SetFloat("Horizontal", move.x);
         animator.SetFloat("Vertical", move.y);
         animator.SetFloat("Speed", move.sqrMagnitude);
+
+        if(Input.GetKeyDown("escape"))
+        {
+            Application.Quit();
+        }
     }
 
     // Update is called once per frame
